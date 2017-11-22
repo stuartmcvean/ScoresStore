@@ -1,0 +1,4 @@
++ nocsrf
+POST  /scores  @controllers.ScoreStoreController.addScores()
++ nocsrf
+GET  /scores/:id  @controllers.ScoreStoreController.getScores(id: String)
